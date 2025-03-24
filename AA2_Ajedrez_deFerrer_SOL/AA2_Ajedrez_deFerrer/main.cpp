@@ -1,6 +1,10 @@
-#include <iostream>
+#include "Const.h"
+#include "Board.h"
 
 int main() {
-	std::cout << "Hello World!";
-	return 0;
+	char chessBoard [BOARD_SIZE][BOARD_SIZE];
+
+	initChessBoard(chessBoard);
+	viewChessBoard(chessBoard);
+
 }
